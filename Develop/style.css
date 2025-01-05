@@ -31,12 +31,29 @@ header nav{
     color: aquamarine;
     font-weight: bold;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    border: 5px solid gold;
+    
 }
 .tour{
     width: 500px;
     float: left;
    
 
+}
+
+.VIDEOS {
+   
+    color: aqua;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border: 5px solid gold 
 }
 
 main{
@@ -67,12 +84,20 @@ main{
     color: blanchedalmond;
 }
 
-.vids, .song {
-    display: inline-block;
-    float: inline-end;
-    padding-right: 300px;
-    padding-left: 300px;
+.MUSIC {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+    padding-right: auto;
+    padding-left: auto;
     font-style: inherit;
     color: aquamarine;
-    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 5px solid gold;   
+}
+
+.song {
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
